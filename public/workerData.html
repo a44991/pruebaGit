@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+
+<body>
+
+    <div class="navbar">
+        <img src="images/logoIkanna.png" alt="Logo de Ikanna" class="navbar-logo">
+        <p class="userCredential">usuario id: amedina  </p>
+        <p class="workerId">worker id: json001</p>   
+
+        <a href="index.html" class="button">Inicio</a> 
+    </div>
+
+   
+
+    <p id="chartTitle">Datos CHART: </p>
+    <section id="container">
+   
+        <canvas id="temperatureChart"></canvas>
+        <canvas id="humidityChart"></canvas>
+        <canvas id="mqChart"></canvas>
+
+        <button id="download">Descargar en .xls</button>
+    </section>
+
+    <button id="erase-data-button">Erase Firebase Data</button>
+
+    <script type= "module" src="showData.js" ></script>
+
+
+    
+
+
+
+</body>

@@ -1,0 +1,116 @@
+
+.navbar {
+  background-color: #ffffff;
+
+  display:flex;
+  list-style: none;
+
+
+
+}
+
+.navbar-logo {
+  display: flex;
+  height: 50%;
+  background-color: white;
+  margin-bottom: 10px;
+
+}
+
+h2 {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+}
+
+.welcome-container {
+  display: flex;
+  justify-content:baseline;
+  flex-direction: column;
+  height: 50vh;
+  margin-top: 20px;
+  background-color: rgb(204, 211, 231);
+  color: black;
+  font-size: larger;
+  
+}
+
+.button {
+  display: inline-block;
+  width:fit-content;
+  height: fit-content;
+  padding: 10px 10px;
+  color: rgba(255, 255, 255, 0.821);
+  background-color: #f97000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color:black;
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.login-container{
+
+  height: 20vh;
+  margin-top: 20px;
+  background-color: rgb(204, 211, 231);
+  color: black;
+  font-size: larger;
+  
+}
+
+#login-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(204, 211, 231);
+  color: black;
+  font-size: larger;
+  align-items: center;
+}
+
+.chartTitle{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(204, 211, 231);
+  color: black;
+  font-size: medium;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.worker-button{
+
+  display: flex;
+  color: rgba(255, 255, 255, 0.821);
+  background-color: #3c10c2;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  width:fit-content;
+  height: fit-content;
+
+
+}
